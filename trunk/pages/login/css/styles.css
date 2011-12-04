@@ -1,0 +1,87 @@
+.forms {
+background-color: #ffffff;
+font: normal 12px arial,verdana;
+padding: 3px;
+
+border: 1px solid #cccccc;
+}
+.myaccount {
+background-color: #ffffff;
+font: normal 12px arial,verdana;
+padding: 2px 5px;
+border-left: 0px solid #ccc;
+border-right: 0px solid #ccc;
+width:100%;
+margin-left:-4px;
+margin-top: -9px;
+}
+
+a {
+color: #03c;
+}
+
+.main {
+font: normal 12px arial,verdana;
+padding: 2px;
+margin: 2px;
+
+
+
+ }
+ 
+ .titlehdr {
+ 
+ color: #3B5998;
+ border-bottom: 1px solid #c;
+ 
+ 
+ }
+ 
+.msg {
+padding: 3px;
+margin: 2px;
+
+
+background-color: #FEF1ED;
+background-color: #FFEBE8;
+
+font-size: 11px;
+line-height: 1.28;
+text-align: left;
+border: 1px solid #DD3C10;
+
+} 
+ 
+.error {
+font: normal 11px arial, verdana;
+color: #c00;
+border: 1px solid #c00;
+padding: 2px;
+margin: 5px;
+float: left;
+background-color: #FEF1ED;
+}
+ 
+ .example {
+font: normal 12px arial;
+color: #7288B7;
+
+}
+.approved {
+font: normal 10px arial;
+color: green;
+}
+
+.loginform {
+font: 16px normal arial;
+#background:url(../images/bg.jpg) repeat-x #cbd4e4;
+font: normal 12px arial,verdana;
+padding: 3px;
+border: 1px solid #CAE4FF;
+}
+
+.loginform #txtbox {
+font: bold 16px arial;
+color: #f00;
+}
+
