@@ -1,0 +1,175 @@
+body.hybrid {
+	background: #666;
+}
+
+body.hybrid #login {
+	width: 590px;
+    -moz-box-shadow: 0 0 20px #333;
+    -webkit-box-shadow: 0 0 20px #333;
+    box-shadow: 0 0 20px #333;
+}
+
+body.hybrid #login #cap-top,
+body.hybrid #login #cap-bottom {
+	display: none;
+}
+
+body.hybrid #login #cap-body {
+	background: white;
+	border: 1px solid #cccdcd;
+	-webkit-border-radius: 4px !important;
+	-moz-border-radius: 4px !important;
+	border-radius: 4px !important;
+	padding: 0;
+}
+
+body.hybrid #login #branding {
+	padding: 10px 20px;
+
+	border-bottom: 1px solid #cccdcd;
+}
+
+body.hybrid #login #branding img {
+	margin: 0;
+}
+
+body.hybrid #login .info {
+	padding-left: 20px;
+}
+
+body.hybrid #login #panelLogin {
+	padding-top: 30px;
+}
+
+body.hybrid #login #panelResetPass {
+	padding-top: 20px;
+}
+
+
+body.hybrid #login #panelLogin div,
+body.hybrid #login #panelResetPass div {
+	padding-bottom: 10px;
+	width: auto;
+}
+
+body.hybrid #login #panelLogin div {
+	clear: left;
+}
+
+body.hybrid #login #panelLogin label,
+body.hybrid #login #panelResetPass label {
+	float: left;
+	display: block;
+	width: 190px;
+	text-align: right;
+	color: #333333;
+	font-weight: bold;
+	padding-right: 10px;
+	padding-left: 20px;
+	padding-top: 5px;
+	line-height: 12px;
+}
+
+body.hybrid #login #panelLogin #panelSitesList select {
+	padding: 3px;
+	width: 278px;
+}
+
+body.hybrid #login #panelLogin input.textbox340,
+body.hybrid #login #panelResetPass input.textbox340 {
+    background: #f7f9fa;
+    border: 1px solid #898989;
+
+    padding: 3px;
+
+    -webkit-border-radius: 2px !important;
+    -moz-border-radius: 2px !important;
+    border-radius: 2px !important;
+
+    -moz-box-shadow: inset 0 1px 2px #ccc;
+    -webkit-box-shadow: inset 0 1px 2px #ccc;
+    box-shadow: inset 0 1px 2px #ccc;
+
+    font-size: 12px;
+    line-height: 14px !important;
+
+    color: #383939;
+    width: 270px;
+
+}
+
+body.hybrid #login #panelLogin .submit,
+body.hybrid #login #panelResetPass .submit {
+	border-top: 1px solid #cccdcd;
+	width: auto;
+	margin: 0;
+	padding: 10px 20px;
+	margin-top: 20px;
+	height: 28px;
+}
+
+body.hybrid #login #panelLogin .submit input,
+body.hybrid #login #panelResetPass .submit input {
+	margin: 0;
+	display: block;
+	padding: 0;
+}
+
+body.hybrid #login #panelLogin .clearfix::after {
+	clear: none;
+}
+
+
+body.hybrid #login #panelLogin .lostpassword {
+	position: static;
+	top: 0;
+	width: auto;
+	left: 0;
+	padding: 0 20px 10px 20px;
+	float: left;
+	position: relative;
+	top: -33px;
+}
+
+body.hybrid div#panelErrorMsg.syserror,
+body.hybrid div#panelErrorMsg.sysok,
+body.hybrid div#panelErrorMsg.sysalert {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 1002;
+
+	border: 0;
+
+	color: white;
+	padding: 10px 10px 10px 34px;
+	font-size: 12px;
+	margin: 15px;
+	background-color: #1f1f1f;
+	background-repeat: no-repeat;
+	background-position: 12px 12px;
+
+	cursor: default;
+
+	width: 249px;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
+	-moz-box-shadow: 0 3px 4px #888;
+	-webkit-box-shadow: 0 3px 4px #888;
+	box-shadow: 0 3px 4px #888;
+}
+
+body.hybrid div#panelErrorMsg.sysok {
+	background-image: url(/AdminConsole/static/images/systemNotificationType-ok.png);
+}
+
+body.hybrid div#panelErrorMsg.sysalert {
+	background-image: url(/AdminConsole/static/images/systemNotificationType-warning.png);
+}
+
+body.hybrid div#panelErrorMsg.syserror {
+	background-image: url(/AdminConsole/static/images/systemNotificationType-error.png);
+}
